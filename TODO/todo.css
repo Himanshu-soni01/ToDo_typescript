@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 249, 244);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    margin-top: 7rem;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 10%;
+}
+
+.header{
+    padding-left: 1rem;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    border-left: 3px solid;
+    border-radius: 10%;
+    border-color: rgb(85, 151, 151);
+}
+
+h1{
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input_box{
+    display: flex;
+    margin-top: 2rem;
+    width: 30rem;
+    height: 3.5rem;
+    justify-content: space-between;
+}
+
+/* #add, #search{
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+} */
+
+.input_box input,button{
+    padding: 0.2rem;
+    border-color: rgb(193, 231, 231);
+    border-radius: 20%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 15rem; 
+    height: 1rem; 
+    padding: 0.2rem;
+    border-color: rgb(108, 116, 116);
+    border-radius: 10%;
+}
+
+input[type='checkbox']{
+    height: 16px;
+    width: 16px;
+}
+
+#chkbox{
+    height: 1.5rem;
+    width: 2rem;
+}
+
+#content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30rem;
+}
+
+#content{
+    width: 25rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+#task_name{
+    border: 1px solid;
+    border-radius: 10%;
+    width: 10rem;
+}
+
+#dropdown{
+    border-radius: 20%;
+    color: black;
+    border-color: black;
+}
